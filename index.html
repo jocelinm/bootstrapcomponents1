@@ -1,40 +1,84 @@
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body id="h">
-<h1>Homepage</h1>
-<h1>iPad Generations</h1>
-<table border="2">
-    <tr>
-        <th><a href="ipad1.html">iPad 1</a></th>
-        <th><a href="ipad3.html">iPad 3</a></th>
-        <th><a href="ipad5.html">iPad 5</a></th>
-        <th><a href="ipad7.html">iPad 7</a></th>
-        <th><a href="ipad9.html">iPad 9</a></th>
-    </tr>
-    <tr>
-        <td>2010</td>
-        <td>2012</td>
-        <td>2017</td>
-        <td>2017</td>
-        <td>2021</td>
-    </tr>
-</table>
-<ol>
-    <li>iPad 1</li>
-    <a href="https://avifauna.cz/rubrika/rozcestnik/?ss=5_6_6_25_40&pp=apple+ipad+1&ii=2273840"><img src="https://d2um6umu4gwssp.cloudfront.net/apple/wp-content/uploads/2016/06/ipad-1st-generation-large.jpg" height="300" width="300"></a>
-    <li>iPad 3</li>
-    <a href="https://www.phonedaddy.com/products/apple-ipad-3rd-generation-wifi-only"><img src="https://cdn.shopify.com/s/files/1/0253/7950/4206/products/D_NQ_NP_619578-MLB32161090326_092019-O.jpg?v=1628790573" height="300" width="300"></a>
-    <li>iPad 5</li>
-    <a href="https://apple.fandom.com/wiki/IPad_%285th_generation%29"><img src="https://static.wikia.nocookie.net/ipod/images/1/14/IPad_5th_Gen_Gold-Wi-Fi_Only.jpg/revision/latest?cb=20210708211947" height="300" width="300"></a>
-    <li>iPad 7</li>
-    <a href="https://www.apple.com/shop/product/FW762LL/A/refurbished-ipad-wi-fi-32gb-gold-7th-generation"><img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-ipad-wifi-gold-2019?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1593017704000" height="300" width="300"></a>
-    <li>iPad 9</li>
-    <a href="https://www.costco.com/apple-ipad-%289th-generation%29-wi-fi-%2B-cellular%2C-64gb.product.100806367.html"><img src="https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1670521&recipeId=729" height="300" width="300"></a>
-</ol>
+  <body>
+    <nav class="navbar navbar-expand bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">iPad Generation</a>
+        <ul class="navbar-nav me-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="ipad1.html">iPad 1</a>
+          </li>
+          <li>
+            <a class="nav-link" href="ipad3.html">iPad 3</a>
+          </li>
+          <li>
+            <a class="nav-link" href="ipad5.html">iPad 5</a>
+          </li>
+          <li>
+            <a class="nav-link" href="ipad7.html">iPad 7</a>
+           <li>
+            <a class="nav-link" href="ipad9.html">iPad 9</a>
+           </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://d2um6umu4gwssp.cloudfront.net/apple/wp-content/uploads/2016/06/ipad-1st-generation-large.jpg" height="400px" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="https://static.wikia.nocookie.net/ipod/images/1/14/IPad_5th_Gen_Gold-Wi-Fi_Only.jpg/revision/latest?cb=20210708211947" height="400px" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1670521&recipeId=729" height="400px" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-4">
+            <h2>iPad 1</h2>
+            <a href="https://avifauna.cz/rubrika/rozcestnik/?ss=5_6_6_25_40&pp=apple+ipad+1&ii=2273840"><img src="https://d2um6umu4gwssp.cloudfront.net/apple/wp-content/uploads/2016/06/ipad-1st-generation-large.jpg" height="300" width="300"></a>
+        </div>
+        <div class="col-sm-4">
+            <h2>iPad 3</h2>
+            <a href="https://www.phonedaddy.com/products/apple-ipad-3rd-generation-wifi-only"><img src="https://cdn.shopify.com/s/files/1/0253/7950/4206/products/D_NQ_NP_619578-MLB32161090326_092019-O.jpg?v=1628790573" height="300" width="300"></a>
+        </div>
+        <div class="col-sm-4">
+            <h2>iPad 5</h2>
+            <a href="https://apple.fandom.com/wiki/IPad_%285th_generation%29"><img src="https://static.wikia.nocookie.net/ipod/images/1/14/IPad_5th_Gen_Gold-Wi-Fi_Only.jpg/revision/latest?cb=20210708211947" height="300" width="300"></a>
+            </div>
+            <div class="row">
+             <div class="col-sm-6">
+               <h2>iPad 7</h2>
+               <a href="https://www.apple.com/shop/product/FW762LL/A/refurbished-ipad-wi-fi-32gb-gold-7th-generation"><img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-ipad-wifi-gold-2019?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1593017704000" height="300" width="300"></a>
+            </div>
+            <div class="col-sm-6">
+                <h2>iPad 9</h2>
+                <a href="https://www.costco.com/apple-ipad-%289th-generation%29-wi-fi-%2B-cellular%2C-64gb.product.100806367.html"><img src="https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1670521&recipeId=729" height="300" width="300"></a>   
+             </div>
 </body>
 </html>
