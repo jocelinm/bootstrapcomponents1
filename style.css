@@ -1,0 +1,38 @@
+#h{
+    color:blueviolet;
+    background-color: red;
+}
+.ipad1{
+    color:seagreen;
+    background-color: orange;
+}
+.ipad3{
+    color:royalblue;
+    background-color: yellow;
+}
+.ipad5{
+    color:brown;
+    background-color: green;
+}
+.ipad7{
+    color:pink;
+    background-color: blue;
+}
+.ipad9{
+    color:aquamarine;
+    background-color: purple;
+}
+h1{
+    text-align: center; font-size: 48px;
+}
+.p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home{
+    font-size: 30px;
+}
+a:active {
+    background-color: yellow;
+  }
